@@ -1,0 +1,30 @@
+// Place all the styles related to the longest_word controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text-center {
+  text-align: center;
+  }
+
+.grid-margin {
+  margin: 30px;
+}
+
+.grid {
+ border: 1px solid black;
+ width: 240px;
+ padding: 20px;
+ margin: auto;
+}
+
+.link {
+  margin: 10px;
+  // border-radius: 2px;
+  // border: 1px solid red;
+  padding: 5px;
+  // background-color: rgba(125, 0 , 125, 0.1)
+}

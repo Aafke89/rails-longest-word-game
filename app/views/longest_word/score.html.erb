@@ -1,0 +1,12 @@
+<div class="text-center"><h1><%= @score[:message] %></h1>
+ <% unless @score[:translation] == nil %>
+    <p>Your word was: <%= @score[:word] %></p>
+    <p>The translation is <%= @score[:translation] %></p>
+    <p>score =  <%= @score[:score] %></p>
+  <% end %>
+
+
+</div>
+<div class="link"><%= link_to "try another time", "/" %></div>
+
+
